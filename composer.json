@@ -42,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arnissolle\\Localization\\LocalizationServiceProvider"
+                "Arnissolle\\Localization\\ServiceProvider"
             ]
         }
     }
