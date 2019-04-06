@@ -5,7 +5,7 @@ namespace Arnissolle\Localization\Middleware;
 use Illuminate\Http\Request;
 use Closure;
 
-class Localize
+class Handler
 {
     /**
      * Handle an incoming request

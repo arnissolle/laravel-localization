@@ -8,6 +8,7 @@
         "localization",
         "middleware"
     ],
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
