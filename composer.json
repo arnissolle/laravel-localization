@@ -1,6 +1,6 @@
 {
     "name": "arnissolle/laravel-localization",
-    "description": "Localization middleware for Laravel 5.8 and up",
+    "description": "Laravel localization package",
     "homepage": "https://github.com/arnissolle/laravel-localization",
     "keywords": [
         "arnissolle",
