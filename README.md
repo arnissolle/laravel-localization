@@ -1,5 +1,3 @@
-# Laravel Localization
-
 <p align="center">
 <a href="https://travis-ci.org/arnissolle/laravel-localization"><img src="https://travis-ci.org/arnissolle/laravel-localization.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/d/total.svg" alt="Total Downloads"></a>
