@@ -1,9 +1,11 @@
 # Laravel Localization
 
-[![Build Status](https://travis-ci.org/arnissolle/laravel-localization.svg)](https://travis-ci.org/arnissolle/laravel-localization)
-[![Total Downloads](https://poser.pugx.org/arnissolle/laravel-localization/d/total.svg)](https://packagist.org/packages/arnissolle/laravel-localization)
-[![Latest Stable Version](https://poser.pugx.org/arnissolle/laravel-localization/v/stable.svg)](https://packagist.org/packages/arnissolle/laravel-localization)
-[![License](https://poser.pugx.org/arnissolle/laravel-localization/license.svg)](https://packagist.org/packages/arnissolle/laravel-localization)
+<p align="center">
+<a href="https://travis-ci.org/arnissolle/laravel-localization"><img src="https://travis-ci.org/arnissolle/laravel-localization.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/license.svg" alt="License"></a>
+</p>
 
 ## Introduction
 
