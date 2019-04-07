@@ -5,7 +5,7 @@ namespace Arnissolle\Localization\Middleware;
 use Illuminate\Http\Request;
 use Closure;
 
-class Handler
+class LocalizationHandler
 {
     /**
      * Handle an incoming request
@@ -23,8 +23,8 @@ class Handler
             $locales = config('app.locales', [$fallback_locale]);
             $preferred_locale = $request->getPreferredLanguage($locales);
 
-            if (!in_array($locale, $locales))
-            {
+            if ( ! in_array($locale, $locales)) {
+
                 $locale = session('locale') ?: $preferred_locale;
                 $path = $this->getRequestUri($request, $locale);
 
@@ -50,8 +50,7 @@ class Handler
         $segments = explode('/', $request->getRequestUri());
         $segments = array_values(array_filter($segments));
 
-        if (isset($segments[0]) && $this->isLocale($segments[0]))
-        {
+        if (isset($segments[0]) && $this->isLocale($segments[0])) {
             array_shift($segments);
         }
 
