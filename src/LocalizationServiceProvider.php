@@ -52,7 +52,7 @@ class LocalizationServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'localization');
+        $this->mergeConfigFrom(__DIR__.'/../config/localization.php', 'localization');
 
         // Register the main class to use with the facade
         $this->app->singleton('localization', function () {
