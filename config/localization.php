@@ -11,8 +11,8 @@ return [
     |
     */
     'locales' => [
-        'en' => ['name' => 'English', 'native' => 'English', 'regional' => 'en_GB'],
-        'fr' => ['name' => 'French', 'native' => 'Français', 'regional' => 'fr_FR'],
+        'en' => ['code' => 'en_GB', 'name' => 'English', 'localized_name' => 'English'],
+        'fr' => ['code' => 'fr_FR', 'name' => 'French', 'localized_name' => 'Français'],
     ],
 
     /*
