@@ -1,3 +1,7 @@
+build
 composer.lock
-/vendor/
+docs
+vendor
+coverage
 .idea
+.DS_Store

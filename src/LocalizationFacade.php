@@ -1,10 +1,13 @@
 <?php
 
-namespace Arnissolle\Localization\Facades;
+namespace Arnissolle\Localization;
 
 use Illuminate\Support\Facades\Facade;
 
-class Localization extends Facade
+/**
+ * @see \Arnissolle\Localization\Skeleton\SkeletonClass
+ */
+class LocalizationFacade extends Facade
 {
     /**
      * Get the registered name of the component.

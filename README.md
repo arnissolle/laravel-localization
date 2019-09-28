@@ -1,37 +1,53 @@
-<p align="center">
-<a href="https://travis-ci.org/arnissolle/laravel-localization"><img src="https://travis-ci.org/arnissolle/laravel-localization.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/arnissolle/laravel-localization"><img src="https://poser.pugx.org/arnissolle/laravel-localization/license.svg" alt="License"></a>
-</p>
+# Very short description of the package
 
-## Introduction
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/arnissolle/laravel-localization.svg?style=flat-square)](https://packagist.org/packages/arnissolle/laravel-localization)
+[![Build Status](https://img.shields.io/travis/arnissolle/laravel-localization/master.svg?style=flat-square)](https://travis-ci.org/arnissolle/laravel-localization)
+[![Quality Score](https://img.shields.io/scrutinizer/g/arnissolle/laravel-localization.svg?style=flat-square)](https://scrutinizer-ci.com/g/arnissolle/laravel-localization)
+[![Total Downloads](https://img.shields.io/packagist/dt/arnissolle/laravel-localization.svg?style=flat-square)](https://packagist.org/packages/arnissolle/laravel-localization)
 
-The Laravel Localization package is built for Laravel 5.8+ and provides: 
-
-- [x] Localized routes with language URL prefixes.
-- [ ] Domain based localized routes.
-- [x] Middleware to detect user language based on HTTP header and session. 
-- [x] Redirect the user to the localized version.
-- [ ] Possibility to hide the language URL prefix for the default language.
-- [ ] Possibility to localize a subset of routes only.
-- [ ] Language Switcher and Hreflang Meta Tags
-- [ ] Patched `route()` method to use localized routes whenever possible.
-- [ ] Compatibility with `artisan route:cache`.
+This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
-To get started, use Composer to add the package to your project's dependencies:
-```
+You can install the package via composer:
+
+```bash
 composer require arnissolle/laravel-localization
 ```
 
-Add the middleware to the `web` group in `App/Http/Kernel.php`:
-```php
-protected $middlewareGroups = [
-    'web' => [
-        // ...
-        \Arnissolle\Localization\Middleware\Handler::class,
-    ],
-];
+## Usage
+
+``` php
+// Usage description here
 ```
+
+### Testing
+
+``` bash
+composer test
+```
+
+### Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+### Security
+
+If you discover any security related issues, please email pierre@arnissolle.com instead of using the issue tracker.
+
+## Credits
+
+- [Pierre Arnissolle](https://github.com/parnissolle)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Laravel Package Boilerplate
+
+This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
